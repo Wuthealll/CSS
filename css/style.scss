@@ -1,0 +1,136 @@
+// body {
+//     background-color: rgb(7, 7, 7);
+
+//     .box1 {
+//         border-bottom: 2px solid red;
+//         width: 90%;
+//         height: 20vh;
+//         margin-left: 30px;
+//         display: flex;
+//         justify-content:flex-start;
+//         align-items: center;
+
+//         .span1 {
+//             text-transform: uppercase;
+//             margin-left: 20px;
+//             font-size: 50px;
+//             font-weight: bold;
+//             -webkit-text-stroke: 1px rgb(255, 255, 255);
+//             color: transparent;
+//             position: relative;
+//             transition: 1s ease-in-out;
+
+//             &:hover {
+//                 color: yellow;
+//                 -webkit-text-stroke: 1px rgb(255, 255, 255);
+//             }
+
+//             &::after {
+//                 content: "";
+//                 border-radius: 8px;
+//                 width: 10px;
+//                 height: 80px;
+//                 position: absolute;
+//                 top: 0;
+//                 left: -15px;
+//                 background-color: yellow;
+//                 transition: 1s ease-in-out;
+//             }
+
+//             &:hover::after {
+//                 content: "";
+//                 width: 10px;
+//                 height: 80px;
+//                 position: absolute;
+//                 top: 0;
+//                 left: 106%;
+//                 background-color: yellow;
+//             }
+
+
+//         }
+
+//         .span2 {
+//             margin-left: 20px;
+//             font-size: 50px;
+//             font-weight: bold;
+//             -webkit-text-stroke: 1px rgb(255, 255, 255);
+//             color: transparent;
+//             position: relative;
+//             transition: 0.7s ease-in-out;
+
+//             &:hover {
+//                 color: green;
+//                 -webkit-text-stroke: 1px rgb(255, 255, 255);
+//             }
+
+//             &::after {
+//                 content: "";
+//                 border-radius: 8px;
+//                 width: 10px;
+//                 height: 80px;
+//                 position: absolute;
+//                 top: 0;
+//                 left: -15px;
+//                 background-color: green;
+//                 transition: 0.6s ease-in-out;
+//             }
+
+//             &:hover::after {
+//                 content: "";
+//                 width: 10px;
+//                 height: 80px;
+//                 position: absolute;
+//                 top: 0;
+//                 left: 110%;
+//                 background-color: green;
+//             }
+
+
+//         }
+
+//         .span3 {
+//             text-transform: uppercase;
+//             margin-left: 20px;
+//             font-size: 50px;
+//             font-weight: bold;
+//             -webkit-text-stroke: 1px rgb(255, 255, 255);
+//             color: transparent;
+//             position: relative;
+//             transition: 0.7s ease-in-out;
+
+//             &:hover {
+//                 color:blue;
+//                 -webkit-text-stroke: 1px rgb(255, 255, 255);
+//             }
+
+//             &::after {
+//                 content: "";
+//                 border-radius: 8px;
+//                 width: 10px;
+//                 height: 80px;
+//                 position: absolute;
+//                 top: 0;
+//                 left: -15px;
+//                 background-color: blue;
+//                 transition: 0.7s ease-in-out;
+//             }
+
+//             &:hover::after {
+//                 content: "";
+//                 width: 10px;
+//                 height: 80px;
+//                 position: absolute;
+//                 top: 0;
+//                 left: 110%;
+//                 background-color: blue;
+//             }
+
+
+//         }
+//     }
+
+
+// }
+
+// ___________________________________________________
